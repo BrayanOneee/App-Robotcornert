@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="412dp"
+        android:layout_height="261dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Robotcornert era una empresa dedicada a la creación de robots donde sus puertas cerraron hace 5 años por un error en uno de sus creaciones, un robot  capaz de formar parte en la vida cotidiana en la tierra trabajando con seguridad bajo las tres leyes de la robótica. Sin embargo, cuando los robots comienzan a comportarse como si tuvieran vida, todo comienza a salirse de control en la empresa y esta decide cerrar y esconder estos robots para el bien de la humanidad.
+
+
+5 años después, Robotcornert decide abrir nuevamente sus puertas después de su atentado y decide reclutar nuevos trabajadores para poner en marcha nuevamente el proyecto de los robots.
+
+
+Daniel, un estudiante de 21 años dedicado a la ciencia y robótica fue aceptado en la empresa para trabajar de la mano con el profesor y usted (tú) dónde nos ayudarás a tomar decisiones para que este proyecto resulte bien y no un desastre como el de hace 5 años.
+
+
+Bien jugador, para crear un buen robot necesitamos responder una serie de preguntas las cuales estas están enfocadas en la creación de un robot  ¿nos ayudarías a mi y al profesor a elegir las respuestas correctas?
+
+"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="Siguiete3"
+        android:text="Siguiente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.916" />
+</androidx.constraintlayout.widget.ConstraintLayout>
